@@ -1,0 +1,14 @@
+*.gba
+*.map
+build
+agbcc
+binutils
+*.cfg
+data
+*.sav
+*.elf
+*.o
+include/Rockman Zero 3.gba.h
+*.memo.txt
+*.memo.md
+tmp.py

@@ -1,0 +1,18 @@
+{   
+    "editor.formatOnSave": true,
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, ColumnLimit: 120 }",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "tools/agbcc": true,
+        "tools/binutils": true,
+        "*.sav": true,
+        "*.elf": true,
+        "*.sha1": true,
+        "**/*.o": true,
+    }
+}
