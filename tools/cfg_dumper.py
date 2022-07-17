@@ -1,4 +1,4 @@
-# Dump cfg file for camthesaxman/gbadisasm
+# Dump cfg file for pokemium/gbadisasm-go@develop
 # @author   Otomo Akihiro (2022-02-26)
 # @category GBA
 
@@ -7,7 +7,6 @@ import os
 cur_file_idx = 0  # main.s
 
 file_begins = [
-    [0x08000000, "main"],
     [0x080f0654, "code_080f0654"],
     [0x080f3238, "code_080f3238"],
     [0x080FC44C, "m4a"],
@@ -32,7 +31,7 @@ def is_thumb_function(func):
 
 def dump_gbadisasm_config(start_addr, max=-1):
     # https://github.com/camthesaxman/gbadisasm
-    result = "file_begin 0x08000000 main\n"
+    result = ""
 
     i = 0
     f = getFunctionAfter(toAddr(start_addr))
