@@ -1,9 +1,5 @@
 # Misc
 
-## Mission
-
-If you want to start any mission, hook into 08019e94 and rewrite R0. R0 represents stage id.
-
 ## Disable command-dash
 
 The command-dash is triggered by the function starting with `08033708`.
